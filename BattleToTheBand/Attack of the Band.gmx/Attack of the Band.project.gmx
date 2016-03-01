@@ -12,14 +12,24 @@
     <sprite>sprites\spr_block</sprite>
     <sprite>sprites\spr_DrummerPlayer</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+    <background>background\background_tiles</background>
+  </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\AddMultiple.gml</script>
+    <script>scripts\AttachMultiple.gml</script>
+    <script>scripts\CreateCollisionMap.gml</script>
+    <script>scripts\GetCollision.gml</script>
+    <script>scripts\InitialisePlayer.gml</script>
+    <script>scripts\ProcessPlayer.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\GuitarPlayer_obj</object>
     <object>objects\Character</object>
     <object>objects\Eneimy</object>
     <object>objects\Player</object>
-    <object>objects\Floor</object>
     <object>objects\Block</object>
     <object>objects\DrummerPlayer_obj</object>
   </objects>
