@@ -10,6 +10,7 @@
     <sprite>sprites\spr_SingerPlayer</sprite>
     <sprite>sprites\spr_floor0</sprite>
     <sprite>sprites\spr_block</sprite>
+    <sprite>sprites\spr_DrummerPlayer</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -20,6 +21,7 @@
     <object>objects\Player</object>
     <object>objects\Floor</object>
     <object>objects\Block</object>
+    <object>objects\DrummerPlayer_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Level0</room>
