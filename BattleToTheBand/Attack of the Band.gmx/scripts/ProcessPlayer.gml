@@ -11,9 +11,9 @@ if( grav>=10 ) grav=10;
 if( grav<0 )
 {
     if( dir=1){
-        sprite_index = jump_right;
+        ////sprite_index = jump_right;
     }else{
-        sprite_index = jump_left;
+        ////sprite_index = jump_left;
     }
     c2 = -1;
     c1 = GetCollision(x,y);
@@ -31,9 +31,9 @@ else{
     if( jump )
     {
         if( dir=1){
-            sprite_index = fall_right;
+            //sprite_index = fall_right;
         }else{
-            sprite_index = fall_left;
+            //sprite_index = fall_left;
         }    
     }else{
         grav=0;
@@ -50,9 +50,9 @@ else{
         jump=0;
         
         if( dir=1){
-            sprite_index = walk_right;
+            //sprite_index = walk_right;
         }else{
-            sprite_index = walk_left;
+            //sprite_index = walk_left;
         }           
     }
 }    
@@ -65,7 +65,7 @@ if( keyboard_check(vk_left) )
 {
     dir=-1;
     if(!jump){
-        sprite_index = walk_left;
+        //sprite_index = walk_left;
     }
     x=x-xspeed;
     c2=-1;
@@ -80,7 +80,7 @@ if( keyboard_check(vk_left) )
     // Otherwise, check collision to the right
     dir=1;
     if(!jump){
-        sprite_index = walk_right;
+        //sprite_index = walk_right;
     }
     x=x+xspeed;
     c2 = -1;
