@@ -57,9 +57,6 @@ else{
     }
 }    
 
-
-
-
 // If moving left, check LEFT collision
 if( keyboard_check(vk_left) ) 
 {

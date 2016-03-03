@@ -11,10 +11,13 @@
     <sprite>sprites\spr_floor0</sprite>
     <sprite>sprites\spr_block</sprite>
     <sprite>sprites\spr_DrummerPlayer</sprite>
+    <sprite>sprites\spr_guitar_button</sprite>
+    <sprite>sprites\spr_drummer_button</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
     <background>background\background_tiles</background>
+    <background>background\MenuBackground</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -33,8 +36,12 @@
     <object>objects\Player</object>
     <object>objects\Block</object>
     <object>objects\DrummerPlayer_obj</object>
+    <object>objects\guitar_button</object>
+    <object>objects\button</object>
+    <object>objects\drummer_button</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Menu</room>
     <room>rooms\Level0</room>
   </rooms>
   <help>

@@ -1,7 +1,7 @@
 CreateCollisionMap();
 
 //sprite_index = walk_right;
-image_speed = 0.5;
+image_speed = 0;
 
 // basic movement setup
 xspeed = 2;
