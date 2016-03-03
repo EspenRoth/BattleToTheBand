@@ -13,6 +13,7 @@
     <sprite>sprites\spr_DrummerPlayer</sprite>
     <sprite>sprites\spr_guitar_button</sprite>
     <sprite>sprites\spr_drummer_button</sprite>
+    <sprite>sprites\spr_mic_throw</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
