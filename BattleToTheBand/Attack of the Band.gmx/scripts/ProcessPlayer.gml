@@ -92,6 +92,10 @@ if( keyboard_check(vk_left) )
     image_index =0;
 }
 
+if(y > room_height){
+    Die();
+}
+
 
 
 

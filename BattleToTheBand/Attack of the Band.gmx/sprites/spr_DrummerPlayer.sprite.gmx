@@ -5,8 +5,13 @@
   <yorigin>31</yorigin>
   <colkind>0</colkind>
   <coltolerance>0</coltolerance>
+<<<<<<< HEAD
   <sepmasks>-1</sepmasks>
   <bboxmode>0</bboxmode>
+=======
+  <sepmasks>0</sepmasks>
+  <bboxmode>1</bboxmode>
+>>>>>>> a94ac0ffb8a9d9338e9bfd3f2cdaf335f41c87d6
   <bbox_left>0</bbox_left>
   <bbox_right>51</bbox_right>
   <bbox_top>0</bbox_top>
