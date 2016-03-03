@@ -11,9 +11,9 @@ if( grav>=10 ) grav=10;
 if( grav<0 )
 {
     if( dir=1){
-        ////sprite_index = jump_right;
+        //sprite_index = jump_right;
     }else{
-        ////sprite_index = jump_left;
+        //sprite_index = jump_left;
     }
     c2 = -1;
     c1 = GetCollision(x,y);

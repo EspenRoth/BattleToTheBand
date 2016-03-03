@@ -22,13 +22,14 @@
     <script>scripts\AttachMultiple.gml</script>
     <script>scripts\CreateCollisionMap.gml</script>
     <script>scripts\GetCollision.gml</script>
-    <script>scripts\InitialisePlayer.gml</script>
-    <script>scripts\ProcessPlayer.gml</script>
+    <scripts name="Player">
+      <script>scripts\InitialisePlayer.gml</script>
+      <script>scripts\ProcessPlayer.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <object>objects\GuitarPlayer_obj</object>
     <object>objects\Character</object>
-    <object>objects\Eneimy</object>
     <object>objects\Player</object>
     <object>objects\Block</object>
     <object>objects\DrummerPlayer_obj</object>

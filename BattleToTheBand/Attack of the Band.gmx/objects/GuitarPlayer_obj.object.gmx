@@ -28,9 +28,11 @@
             <string>image_index = 0;
 image_speed = 0;
 
+
 InitialisePlayer();
 
 child = -1;
+
 </string>
           </argument>
         </arguments>
@@ -80,6 +82,7 @@ child = -1;
 if( jump ) exit;
 grav=-8;
 jump=true;
+
 
 
 </string>
