@@ -53,6 +53,7 @@
   <instances>
     <instance objName="guitar_button" x="160" y="256" name="inst_8ADF5163" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="drummer_button" x="320" y="256" name="inst_88C6F9C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="singer_button" x="448" y="224" name="inst_1ACC8C38" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
