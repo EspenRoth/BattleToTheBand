@@ -9,4 +9,3 @@ grav=2;
 jump=false;
 dir=0;
 
-

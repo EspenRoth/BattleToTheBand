@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>image_index = 0;
 image_speed = 0;
+InitialisePlayer();
 </string>
           </argument>
         </arguments>
@@ -49,7 +50,7 @@ image_speed = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>x += 4;
+            <string>ProcessPlayer(0);
 </string>
           </argument>
         </arguments>
