@@ -14,6 +14,7 @@
     <sprite>sprites\spr_guitar_button</sprite>
     <sprite>sprites\spr_drummer_button</sprite>
     <sprite>sprites\spr_singer_button</sprite>
+    <sprite>sprites\note</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -36,13 +37,13 @@
     <object>objects\GuitarPlayer_obj</object>
     <object>objects\Character</object>
     <object>objects\Player</object>
-    <object>objects\Block</object>
     <object>objects\DrummerPlayer_obj</object>
     <object>objects\guitar_button</object>
     <object>objects\button</object>
     <object>objects\drummer_button</object>
     <object>objects\singer_button</object>
     <object>objects\SingerPlayer_Obj</object>
+    <object>objects\music_notes</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>
