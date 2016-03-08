@@ -16,6 +16,8 @@
     <sprite>sprites\spr_mic_throw</sprite>
     <sprite>sprites\spr_singer_button</sprite>
     <sprite>sprites\note</sprite>
+    <sprite>sprites\spr_nun</sprite>
+    <sprite>sprites\spr_priest</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -45,6 +47,7 @@
     <object>objects\singer_button</object>
     <object>objects\SingerPlayer_Obj</object>
     <object>objects\music_notes</object>
+    <object>objects\NunEnemy_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>
