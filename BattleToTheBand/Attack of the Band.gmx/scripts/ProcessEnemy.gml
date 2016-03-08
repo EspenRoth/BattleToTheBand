@@ -63,7 +63,7 @@ else{
     
 // destroy on bullet death
 if(instance_exists(player_bullet)){
-    if(abs(player_bullet.x - x) < 15){
+    if(abs(player_bullet.x - x) < 20){
         if(abs(player_bullet.y - y) < 50){
         with(other){
             instance_destroy();
