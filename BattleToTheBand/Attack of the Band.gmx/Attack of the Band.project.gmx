@@ -35,6 +35,7 @@
       <script>scripts\ProcessPlayer.gml</script>
     </scripts>
     <script>scripts\Die.gml</script>
+    <script>scripts\ProcessEnemy.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\GuitarPlayer_obj</object>
@@ -48,6 +49,7 @@
     <object>objects\SingerPlayer_Obj</object>
     <object>objects\music_notes</object>
     <object>objects\NunEnemy_obj</object>
+    <object>objects\Enemy</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>
