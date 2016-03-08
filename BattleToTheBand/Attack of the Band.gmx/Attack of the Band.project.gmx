@@ -18,6 +18,7 @@
     <sprite>sprites\note</sprite>
     <sprite>sprites\spr_nun</sprite>
     <sprite>sprites\spr_priest</sprite>
+    <sprite>sprites\spr_cross</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -50,6 +51,10 @@
     <object>objects\music_notes</object>
     <object>objects\NunEnemy_obj</object>
     <object>objects\Enemy</object>
+    <object>objects\cross</object>
+    <object>objects\enemy_bullet</object>
+    <object>objects\player_bullet</object>
+    <object>objects\PriestEnemy_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>

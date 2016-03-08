@@ -1,4 +1,4 @@
-var xx,yy,c1,c2;
+    var xx,yy,c1,c2;
 
 
 
@@ -60,8 +60,19 @@ else{
 
     // If standing still, don't animate
     image_index =0;
+    
+// destroy on bullet death
+if(instance_exists(player_bullet)){
+    if(abs(player_bullet.x - x) < 15){
+        if(abs(player_bullet.y - y) < 50){
+        with(other){
+            instance_destroy();
+            }
+            instance_destroy();
+        }
+    }
 
-
+}
 
 
 

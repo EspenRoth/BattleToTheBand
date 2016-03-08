@@ -53,6 +53,15 @@
   <instances>
     <instance objName="NunEnemy_obj" x="384" y="192" name="inst_D7E717BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="NunEnemy_obj" x="608" y="96" name="inst_98FDFAD1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="PriestEnemy_obj" x="928" y="256" name="inst_12580308" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="PriestEnemy_obj" x="1056" y="256" name="inst_CD11FE66" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="NunEnemy_obj" x="1376" y="192" name="inst_89BC3D45" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="NunEnemy_obj" x="1184" y="256" name="inst_9C051CAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="NunEnemy_obj" x="1632" y="96" name="inst_EBE12096" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="PriestEnemy_obj" x="1696" y="64" name="inst_05A7E728" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="NunEnemy_obj" x="1824" y="256" name="inst_A45A2A3F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="PriestEnemy_obj" x="1984" y="256" name="inst_22050862" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="PriestEnemy_obj" x="2016" y="256" name="inst_6B5D3764" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background_tiles" x="32" y="288" w="32" h="32" xo="0" yo="32" id="10000001" name="inst_40FCC471" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
