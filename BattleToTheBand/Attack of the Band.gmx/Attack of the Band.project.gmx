@@ -19,6 +19,8 @@
     <sprite>sprites\spr_nun</sprite>
     <sprite>sprites\spr_priest</sprite>
     <sprite>sprites\spr_cross</sprite>
+    <sprite>sprites\spr_boss1</sprite>
+    <sprite>sprites\sprBoulder</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -37,6 +39,7 @@
     </scripts>
     <script>scripts\Die.gml</script>
     <script>scripts\ProcessEnemy.gml</script>
+    <script>scripts\initialiseEnemy.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\GuitarPlayer_obj</object>
@@ -55,10 +58,13 @@
     <object>objects\enemy_bullet</object>
     <object>objects\player_bullet</object>
     <object>objects\PriestEnemy_obj</object>
+    <object>objects\boss1obj</object>
+    <object>objects\boulderObj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>
     <room>rooms\Level0</room>
+    <room>rooms\level_1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
