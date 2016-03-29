@@ -19,6 +19,7 @@
     <sprite>sprites\spr_nun</sprite>
     <sprite>sprites\spr_priest</sprite>
     <sprite>sprites\spr_cross</sprite>
+    <sprite>sprites\spr_drum_attack</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -55,6 +56,8 @@
     <object>objects\enemy_bullet</object>
     <object>objects\player_bullet</object>
     <object>objects\PriestEnemy_obj</object>
+    <object>objects\obj_mic_throw</object>
+    <object>objects\obj_drum_attack</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>

@@ -60,6 +60,20 @@ else{
 // If moving left, check LEFT collision
 if( keyboard_check(vk_left) ) 
 {
+   lastdir = 1;
+    if(i >=5)
+    {       
+     left++;
+     i = 0;
+    }
+   
+   if(left > 5)
+   {
+       left = 4;
+   }
+   image_index = left;
+  
+    i++;
     dir=-1;
     if(!jump){
         //sprite_index = walk_left;
@@ -74,6 +88,21 @@ if( keyboard_check(vk_left) )
     }    
 }else if( keyboard_check(vk_right) )
 {
+    lastdir = 0;
+    if(i >=5)
+    {       
+     right++;
+     i = 0;
+    }
+   
+   if(right > 3)
+   {
+       right = 2;
+   }
+   image_index = right;
+  
+    i++;
+   
     // Otherwise, check collision to the right
     dir=1;
     if(!jump){
@@ -88,8 +117,11 @@ if( keyboard_check(vk_left) )
         x = (x&$ffffffe0);
     }    
 } else {
-    // If standing still, don't animate
-    image_index =0;
+    // If standing still, don't animate)
+    image_index = lastdir;
+    right = 2;
+    left = 4;
+    image_speed = 0;
 }
 
 if(y > room_height){
