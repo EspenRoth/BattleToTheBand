@@ -131,8 +131,12 @@ if(y > room_height){
 // destroy on bullet death
 //destroy on bullet death
 if(instance_exists(enemy_bullet)){
-    if(enemy_bullet.x - x < 2){
-        if(abs(enemy_bullet.y - y) < 25){
+    inst = instance_nearest(x, y, enemy_bullet);
+    if(inst.x - x < 2){
+        if(abs(inst.y - y) < 25){
+            with(inst){
+                instance_destroy();
+            }
             health -= 10;
             if (health < 1){
                 Die();

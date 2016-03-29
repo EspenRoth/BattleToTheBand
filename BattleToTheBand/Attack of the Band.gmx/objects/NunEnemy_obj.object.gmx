@@ -26,7 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>initialiseEnemy();
-
+health = 1;
+isBoss = false;
 bullet_obj = cross;
 </string>
           </argument>

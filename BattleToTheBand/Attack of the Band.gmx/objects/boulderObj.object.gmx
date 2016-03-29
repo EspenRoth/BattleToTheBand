@@ -25,10 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>health = health - 10;
-with(other){
-    instance_destroy();
-}
+            <string>health = health - 15;
+
 </string>
           </argument>
         </arguments>

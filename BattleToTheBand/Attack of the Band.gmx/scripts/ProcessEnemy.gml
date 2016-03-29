@@ -67,11 +67,11 @@ if(instance_exists(player_bullet)){
     inst = instance_nearest(x, y, player_bullet);
         if(abs(inst.x - x) < 20){
         if(abs(inst.y - y) < 50){
-        health -= 10;
-        with(other){
+        hp -= 10;
+        with(inst){
             instance_destroy();
-            }
-            if(health < 1) {
+        }
+            if( hp < 1 ) {
                 instance_destroy();
             }
         }
