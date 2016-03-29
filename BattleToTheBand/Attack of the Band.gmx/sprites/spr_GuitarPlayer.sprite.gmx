@@ -6,10 +6,17 @@
   <colkind>0</colkind>
   <coltolerance>0</coltolerance>
   <sepmasks>-1</sepmasks>
+<<<<<<< HEAD
   <bboxmode>0</bboxmode>
   <bbox_left>1</bbox_left>
   <bbox_right>50</bbox_right>
   <bbox_top>2</bbox_top>
+=======
+  <bboxmode>1</bboxmode>
+  <bbox_left>0</bbox_left>
+  <bbox_right>51</bbox_right>
+  <bbox_top>0</bbox_top>
+>>>>>>> 25c8d13683a34d74b2d22a81b5d7063beb9d59dc
   <bbox_bottom>76</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>

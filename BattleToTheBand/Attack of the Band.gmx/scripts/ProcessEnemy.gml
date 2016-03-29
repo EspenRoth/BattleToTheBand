@@ -62,13 +62,18 @@ else{
     image_index =0;
     
 // destroy on bullet death
+
 if(instance_exists(player_bullet)){
-    if(abs(player_bullet.x - x) < 20){
-        if(abs(player_bullet.y - y) < 50){
+    inst = instance_nearest(x, y, player_bullet);
+        if(abs(inst.x - x) < 20){
+        if(abs(inst.y - y) < 50){
+        health -= 10;
         with(other){
             instance_destroy();
             }
-            instance_destroy();
+            if(health < 1) {
+                instance_destroy();
+            }
         }
     }
 

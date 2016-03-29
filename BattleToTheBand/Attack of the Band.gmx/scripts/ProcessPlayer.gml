@@ -127,15 +127,21 @@ if( keyboard_check(vk_left) )
 if(y > room_height){
     Die();
 }
+
+// destroy on bullet death
 //destroy on bullet death
 if(instance_exists(enemy_bullet)){
     if(enemy_bullet.x - x < 2){
         if(abs(enemy_bullet.y - y) < 25){
-        Die();
+            health -= 10;
+            if (health < 1){
+                Die();
+            }
         }
     }
-
 }
+
+
 
 
 
