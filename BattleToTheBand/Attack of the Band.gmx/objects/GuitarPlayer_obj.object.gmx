@@ -61,16 +61,19 @@
     note1 = instance_create(x,y,music_notes);
     note1.v_x = x_mult * 10;
     note1.v_y = 0;
+    note1.dir = x_mult;
     
     //down
     note2 = instance_create(x,y,music_notes);
     note2.v_x = x_mult * 10;
     note2.v_y = 10;
+    note2.dir = x_mult;
     
     //up
     note3 = instance_create(x,y,music_notes);
     note3.v_x = x_mult *10;
     note3.v_y = -10;
+    note3.dir = x_mult;
     canAttack = false;
     alarm[0] = room_speed*.5;
 }
