@@ -78,26 +78,6 @@ if(instance_exists(player_bullet)){
     }
 
 }
-if(instance_exists(Player)){
-    if(abs(Player.x - x) < 100){
-              
-        if(shoot > 10){
-        if(Player.x - x > 0){
-    x_mult = 1;
-}
-
-else{
-    x_mult = -1;
-}
-            cross1 = instance_create(x,y,bullet_obj);
-            cross1.v_x = x_mult * 10;
-            cross1.v_y = 0;
-            shoot = -5;
-        }
-    }
-
-}
-shoot++;
 
 
 
