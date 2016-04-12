@@ -8,6 +8,29 @@
   <parentName>Player</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>canAttack = true;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="9" enumb="32">
       <action>
         <libid>1</libid>
@@ -25,10 +48,16 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>right = instance_create(x + 46, y, obj_drum_attack);
-right.dir = 0;
-left = instance_create(x - 46, y, obj_drum_attack);
-left.dir = 1;
+            <string>if(canAttack)
+{
+    right = instance_create(x + 46, y, obj_drum_attack);
+    right.dir = 0;
+    left = instance_create(x - 46, y, obj_drum_attack);
+    left.dir = 1;
+    canAttack = false;
+    alarm[0] = room_speed * .5;
+}
+
 
 </string>
           </argument>
