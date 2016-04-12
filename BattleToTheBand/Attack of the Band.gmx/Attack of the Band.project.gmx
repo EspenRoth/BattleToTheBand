@@ -73,6 +73,7 @@
     <object>objects\cookie</object>
     <object>objects\pepperSpray</object>
     <object>objects\movingEnemy</object>
+    <object>objects\Girlfriend</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>
