@@ -27,6 +27,7 @@
     <sprite>sprites\spr_hippy</sprite>
     <sprite>sprites\spr_girlHippy</sprite>
     <sprite>sprites\spr_pepperSpray</sprite>
+    <sprite>sprites\spr_kissy</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -74,6 +75,7 @@
     <object>objects\pepperSpray</object>
     <object>objects\movingEnemy</object>
     <object>objects\Girlfriend</object>
+    <object>objects\Kissy</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>
