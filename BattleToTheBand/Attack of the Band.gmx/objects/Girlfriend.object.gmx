@@ -54,7 +54,7 @@ bullet_obj = Kissy ;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto(level_1)
+            <string>room_goto(Menu)
 </string>
           </argument>
         </arguments>

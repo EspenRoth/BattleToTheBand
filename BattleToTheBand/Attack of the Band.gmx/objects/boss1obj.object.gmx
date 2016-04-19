@@ -76,7 +76,7 @@ bullet_obj = boulderObj ;
         <arguments>
           <argument>
             <kind>5</kind>
-            <sprite>spr_boss1</sprite>
+            <sprite>-100</sprite>
           </argument>
           <argument>
             <kind>0</kind>

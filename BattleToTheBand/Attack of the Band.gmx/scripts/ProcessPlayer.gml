@@ -16,9 +16,9 @@ if( grav<0 )
         //sprite_index = jump_left;
     }
     c2 = -1;
-    c1 = GetCollision(x,y);
+    c1 = GetCollision(x,y+32);
     if( (x&$1f)>0 ) {
-        c2=GetCollision(x+32,y);
+        c2=GetCollision(x+32,y+32);
     }
     if( c1>=0 || c2>=0 )
     {
@@ -42,7 +42,7 @@ else{
     c2 = -1;
     c1 = GetCollision(x,y+32);
     if( (x&$1f)>0 ) {
-        c2=GetCollision(x+32,y+32);
+        c2=GetCollision(x + 32,y + 32);
     }
     if( c1>=0 || c2>=0 )
     {
@@ -80,11 +80,11 @@ if( keyboard_check(vk_left) )
     }
     x=x-xspeed;
     c2=-1;
-    c1 = GetCollision(x,y);
-    if( (y&$1f)>0 ) c2=GetCollision(x,y+32);
+    c1 = GetCollision(x-10,y);
+    if( (y&$1f)>0 ) c2=GetCollision(x-10,y+32);
     if(  c1>=0 ) || ( c2>=0 )
     {
-        x = (x&$ffffffe0)+32;
+        x = (x&$ffffffe0) + 10;
     }    
 }else if( keyboard_check(vk_right) )
 {
@@ -110,11 +110,11 @@ if( keyboard_check(vk_left) )
     }
     x=x+xspeed;
     c2 = -1;
-    c1 = GetCollision(x+32,y);
-    if( (y&$1f)>0 ) c2=GetCollision(x+32,y+32);
+    c1 = GetCollision(x+16,y);
+    if( (y&$1f)>0 ) c2=GetCollision(x+16,y+32);
     if(  c1>=0 ) || ( c2>=0 )
     {
-        x = (x&$ffffffe0);
+        x = (x&$fffffff0);
     }    
 } else {
     // If standing still, don't animate)
