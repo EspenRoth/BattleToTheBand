@@ -75,7 +75,7 @@
     note3.v_y = -10;
     note3.dir = x_mult;
     canAttack = false;
-    alarm[0] = room_speed*.5;
+    alarm[0] = room_speed*.25;
 }
 </string>
           </argument>
