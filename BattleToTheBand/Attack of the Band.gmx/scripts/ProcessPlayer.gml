@@ -8,7 +8,7 @@ grav+=0.4;
 if( grav>=10 ) grav=10;
 
 // If falling, check UNDER the player
-if( grav<0 )
+if( grav>0 )
 {
     if( dir=1){
         //sprite_index = jump_right;
@@ -16,14 +16,15 @@ if( grav<0 )
         //sprite_index = jump_left;
     }
     c2 = -1;
-    c1 = GetCollision(x,y+32);
+    c1 = GetCollision(x-10,y+32);
     if( (x&$1f)>0 ) {
-        c2=GetCollision(x+32,y+32);
+        c2=GetCollision(x+16,y+32);
     }
     if( c1>=0 || c2>=0 )
     {
+        jump = 0;
         grav=0;
-        y = (y&$ffffffe0)+32;
+        y = (y&$ffffffe0);
     }
 }
 else{
@@ -40,14 +41,15 @@ else{
         jump=true;
     }
     c2 = -1;
-    c1 = GetCollision(x,y+32);
+    c1 = GetCollision(x - 10,y+32);
     if( (x&$1f)>0 ) {
-        c2=GetCollision(x + 32,y + 32);
+        c2=GetCollision(x + 16,y + 32);
     }
     if( c1>=0 || c2>=0 )
     {
+        jump = 0;
         y = (y&$ffffffe0);
-        jump=0;
+        
         
         if( dir=1){
             //sprite_index = walk_right;
