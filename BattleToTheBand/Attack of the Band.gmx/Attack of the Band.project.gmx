@@ -30,6 +30,7 @@
     <sprite>sprites\spr_kissy</sprite>
     <sprite>sprites\spr_exec</sprite>
     <sprite>sprites\spr_disc</sprite>
+    <sprite>sprites\spr_drums</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -80,6 +81,7 @@
     <object>objects\Kissy</object>
     <object>objects\obj_exec</object>
     <object>objects\disk</object>
+    <object>objects\obj_drums</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>
