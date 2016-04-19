@@ -28,6 +28,8 @@
     <sprite>sprites\spr_girlHippy</sprite>
     <sprite>sprites\spr_pepperSpray</sprite>
     <sprite>sprites\spr_kissy</sprite>
+    <sprite>sprites\spr_exec</sprite>
+    <sprite>sprites\spr_disc</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -76,6 +78,8 @@
     <object>objects\movingEnemy</object>
     <object>objects\Girlfriend</object>
     <object>objects\Kissy</object>
+    <object>objects\obj_exec</object>
+    <object>objects\disk</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>
