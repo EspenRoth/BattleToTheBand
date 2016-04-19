@@ -84,6 +84,9 @@
     <object>objects\obj_exec</object>
     <object>objects\disk</object>
     <object>objects\obj_drums</object>
+    <object>objects\FakeDrummer</object>
+    <object>objects\FakeGuitarist</object>
+    <object>objects\FakeSinger</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>
