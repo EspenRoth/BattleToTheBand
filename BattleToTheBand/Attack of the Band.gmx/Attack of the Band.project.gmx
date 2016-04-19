@@ -41,8 +41,8 @@
     <script>scripts\CreateCollisionMap.gml</script>
     <script>scripts\GetCollision.gml</script>
     <scripts name="Player">
-      <script>scripts\InitialisePlayer.gml</script>
       <script>scripts\ProcessPlayer.gml</script>
+      <script>scripts\InitialisePlayer.gml</script>
     </scripts>
     <script>scripts\Die.gml</script>
     <script>scripts\ProcessEnemy.gml</script>
@@ -74,15 +74,14 @@
     <object>objects\cookie</object>
     <object>objects\pepperSpray</object>
     <object>objects\movingEnemy</object>
-
     <object>objects\Girlfriend</object>
     <object>objects\Kissy</object>
-
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>
     <room>rooms\Level0</room>
     <room>rooms\Level1</room>
+    <room>rooms\Level2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
