@@ -145,6 +145,10 @@ if(instance_exists(enemy_bullet)){
     }
 }
 
+if (health < 1){
+    Die();
+}
+
 
 
 

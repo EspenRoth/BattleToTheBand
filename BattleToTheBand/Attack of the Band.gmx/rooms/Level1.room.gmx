@@ -55,7 +55,6 @@
     <instance objName="enemy_hippy" x="512" y="128" name="inst_04EC24E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="enemy_hippy" x="896" y="160" name="inst_E890E752" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="enemy_hippy" x="1568" y="32" name="inst_60FA3E4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-
     <instance objName="enemy_hippy" x="1824" y="32" name="inst_72895E04" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="enemy_girlHippy" x="352" y="96" name="inst_F57F97EA" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="enemy_girlHippy" x="608" y="96" name="inst_01C23D5D" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -67,7 +66,6 @@
     <instance objName="enemy_girlHippy" x="1952" y="64" name="inst_9AB8BCAD" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="enemy_girlHippy" x="1984" y="64" name="inst_BB8CABD0" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Girlfriend" x="1984" y="128" name="inst_D6D6C99E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-
   </instances>
   <tiles>
     <tile bgName="background_tiles" x="160" y="288" w="32" h="32" xo="160" yo="288" id="10000116" name="inst_585E9B58" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
