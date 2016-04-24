@@ -54,35 +54,35 @@
     <script>scripts\initialiseEnemy.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\GuitarPlayer_obj</object>
     <object>objects\Character</object>
     <object>objects\Player</object>
+    <object>objects\GuitarPlayer_obj</object>
     <object>objects\DrummerPlayer_obj</object>
-    <object>objects\guitar_button</object>
+    <object>objects\SingerPlayer_Obj</object>
     <object>objects\button</object>
+    <object>objects\guitar_button</object>
     <object>objects\drummer_button</object>
     <object>objects\singer_button</object>
-    <object>objects\SingerPlayer_Obj</object>
-    <object>objects\music_notes</object>
-    <object>objects\NunEnemy_obj</object>
     <object>objects\Enemy</object>
-    <object>objects\cross</object>
-    <object>objects\enemy_bullet</object>
-    <object>objects\player_bullet</object>
+    <object>objects\NunEnemy_obj</object>
     <object>objects\PriestEnemy_obj</object>
+    <object>objects\boss1obj</object>
+    <object>objects\movingEnemy</object>
+    <object>objects\enemy_girlHippy</object>
+    <object>objects\enemy_hippy</object>
+    <object>objects\obj_exec</object>
+    <object>objects\Girlfriend</object>
+    <object>objects\enemy_bullet</object>
+    <object>objects\cookie</object>
+    <object>objects\Kissy</object>
+    <object>objects\disk</object>
+    <object>objects\pepperSpray</object>
+    <object>objects\boulderObj</object>
+    <object>objects\cross</object>
+    <object>objects\player_bullet</object>
+    <object>objects\music_notes</object>
     <object>objects\obj_mic_throw</object>
     <object>objects\obj_drum_attack</object>
-    <object>objects\boss1obj</object>
-    <object>objects\boulderObj</object>
-    <object>objects\enemy_hippy</object>
-    <object>objects\enemy_girlHippy</object>
-    <object>objects\cookie</object>
-    <object>objects\pepperSpray</object>
-    <object>objects\movingEnemy</object>
-    <object>objects\Girlfriend</object>
-    <object>objects\Kissy</object>
-    <object>objects\obj_exec</object>
-    <object>objects\disk</object>
     <object>objects\obj_drums</object>
     <object>objects\FakeDrummer</object>
     <object>objects\FakeGuitarist</object>

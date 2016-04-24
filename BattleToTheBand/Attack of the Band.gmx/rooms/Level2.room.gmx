@@ -16,6 +16,18 @@
     }
 }
 
+if(global.player_obj == DrummerPlayer_obj){
+    with(FakeDrummer){
+        instance_destroy()
+    }
+}
+
+if(global.player_obj == SingerPlayer_Obj){
+    with(FakeSinger){
+        instance_destroy()
+    }
+}
+
 instance_create(50, 50, global.player_obj)</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
