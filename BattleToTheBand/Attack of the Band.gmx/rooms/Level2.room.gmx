@@ -10,7 +10,13 @@
   <persistent>0</persistent>
   <colour>8454143</colour>
   <showcolour>-1</showcolour>
-  <code>instance_create(50, 50, global.player_obj)</code>
+  <code>if(global.player_obj == GuitarPlayer_obj){
+    with(FakeGuitarist){
+        instance_destroy()
+    }
+}
+
+instance_create(50, 50, global.player_obj)</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
