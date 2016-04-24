@@ -33,6 +33,7 @@
     <sprite>sprites\spr_exec</sprite>
     <sprite>sprites\spr_disc</sprite>
     <sprite>sprites\spr_drums</sprite>
+    <sprite>sprites\spr_boss_exec</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -71,6 +72,7 @@
     <object>objects\enemy_girlHippy</object>
     <object>objects\enemy_hippy</object>
     <object>objects\obj_exec</object>
+    <object>objects\obj_boss_executive</object>
     <object>objects\Girlfriend</object>
     <object>objects\enemy_bullet</object>
     <object>objects\cookie</object>
