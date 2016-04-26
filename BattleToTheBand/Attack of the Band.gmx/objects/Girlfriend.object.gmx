@@ -32,7 +32,7 @@ isBoss = true;
 hp = 100;
 bullet_obj = Kissy ;
 height_diff = 60;
-talkText = "If I can't have you, nobody can!"
+talk_text = "If I can't have you, nobody can!"
 
 </string>
           </argument>
