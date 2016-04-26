@@ -53,7 +53,7 @@ bullet_obj = obj_money ;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_create(1504,128,obj_key);
+            <string>instance_create(1540,132,obj_key);
 </string>
           </argument>
         </arguments>
