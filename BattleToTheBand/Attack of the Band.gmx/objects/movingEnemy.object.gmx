@@ -27,6 +27,8 @@
             <kind>1</kind>
             <string>movingSpeed = 2;
 lastdir = -1;
+talkTime = -1;
+talk_text = '';
 
 </string>
           </argument>
@@ -54,6 +56,11 @@ lastdir = -1;
 if(instance_exists(Player)){
     if x &gt; view_xview and x &lt; view_xview + 320 and y &gt; view_yview and y &lt; view_yview + 320 then
     {
+        if(talkTime &lt; 0)
+        {
+            talkTime = 50;
+        }
+        
         if( (x-Player.x) &lt; 0 ){
          image_index = 0;
          if(x-Player.x &lt; -30){
@@ -88,6 +95,50 @@ if(instance_exists(Player)){
     else{
     // nothing
     }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>500</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring>draw_self();</codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(talkTime &gt; 0){
+    draw_set_color(c_white);
+    draw_ellipse(x-35, y-80, x+35, y-40, false);
+    draw_set_color(c_black);
+    draw_set_font(font0);
+    draw_text_ext(x-30, y-70, talk_text, 10, 70);
+    talkTime = talkTime - 1;
 }
 </string>
           </argument>
