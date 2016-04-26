@@ -56,6 +56,9 @@
     <script>scripts\ProcessEnemy.gml</script>
     <script>scripts\initialiseEnemy.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\font0</font>
+  </fonts>
   <objects name="objects">
     <object>objects\Character</object>
     <object>objects\Player</object>

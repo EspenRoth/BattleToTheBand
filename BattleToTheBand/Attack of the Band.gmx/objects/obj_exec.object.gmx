@@ -29,6 +29,7 @@
 event_inherited();
 isBoss = false;
 bullet_obj = disk;
+talk_text = "Take The Money. Sell Out!";
 </string>
           </argument>
         </arguments>
