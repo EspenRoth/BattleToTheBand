@@ -69,7 +69,10 @@ if(instance_exists(player_bullet)){
         if(abs(inst.y - y) < 50){
         hp -= 10;
         with(inst){
-            instance_destroy();
+            if(instance_exists(GuitarPlayer_obj))
+            {
+                 instance_destroy();
+            }
         }
             if( hp < 1 ) {
                 instance_destroy();
