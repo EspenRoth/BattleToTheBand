@@ -35,6 +35,7 @@
     <sprite>sprites\spr_disc</sprite>
     <sprite>sprites\spr_drums</sprite>
     <sprite>sprites\spr_boss_exec</sprite>
+    <sprite>sprites\spr_key</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -90,6 +91,8 @@
     <object>objects\FakeDrummer</object>
     <object>objects\FakeGuitarist</object>
     <object>objects\FakeSinger</object>
+    <object>objects\obj_money</object>
+    <object>objects\obj_key</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>
