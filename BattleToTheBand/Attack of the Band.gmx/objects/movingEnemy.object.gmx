@@ -134,10 +134,10 @@ if(instance_exists(Player)){
             <kind>1</kind>
             <string>if(talkTime &gt; 0){
     draw_set_color(c_white);
-    draw_ellipse(x-35, y-80, x+35, y-40, false);
+    draw_ellipse(x-35, y-80-height_diff, x+35, y-40 - height_diff, false);
     draw_set_color(c_black);
     draw_set_font(font0);
-    draw_text_ext(x-30, y-70, talk_text, 10, 70);
+    draw_text_ext(x-30, y-70 - height_diff, talk_text, 10, 70);
     talkTime = talkTime - 1;
 }
 </string>
