@@ -8,6 +8,7 @@
     <sound>sound\sound0</sound>
   </sounds>
   <sprites name="sprites">
+    <sprite>sprites\spr_money</sprite>
     <sprite>sprites\spr_GuitarPlayer</sprite>
     <sprite>sprites\spr_SingerPlayer</sprite>
     <sprite>sprites\spr_floor0</sprite>
