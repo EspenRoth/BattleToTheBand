@@ -6,6 +6,9 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\sound0</sound>
+    <sound>sound\guitarSound</sound>
+    <sound>sound\drumSound</sound>
+    <sound>sound\singerSound</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_money</sprite>

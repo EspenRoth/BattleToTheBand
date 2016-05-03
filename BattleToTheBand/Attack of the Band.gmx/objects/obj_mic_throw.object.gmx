@@ -28,6 +28,7 @@
             <string>dir = 0;
 t = 0;
 image_speed = 0;
+audio_play_sound(singerSound, 10, false);
 
 </string>
           </argument>

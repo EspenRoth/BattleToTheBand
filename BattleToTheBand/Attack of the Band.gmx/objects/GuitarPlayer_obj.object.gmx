@@ -50,6 +50,7 @@
             <kind>1</kind>
             <string>if(canAttack)
 {
+    audio_play_sound(guitarSound, 10, false);
       if(dir == 1){
         x_mult = 1;
     }
