@@ -68,6 +68,14 @@ audio_play_sound(sound_level1, 1, true);</code>
     <instance objName="enemy_girlHippy" x="1952" y="64" name="inst_9AB8BCAD" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="enemy_girlHippy" x="1984" y="64" name="inst_BB8CABD0" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Girlfriend" x="1984" y="128" name="inst_D6D6C99E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cloud" x="96" y="32" name="inst_078D2FC3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cloud" x="480" y="32" name="inst_D4B8520B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cloud" x="768" y="64" name="inst_4ABF93FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cloud" x="896" y="32" name="inst_AAEF6F69" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cloud" x="1152" y="0" name="inst_E3B60385" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cloud" x="1248" y="32" name="inst_E9672BC1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cloud" x="1504" y="0" name="inst_558EB2E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cloud" x="1760" y="0" name="inst_CF68E7C2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background_tiles" x="160" y="288" w="32" h="32" xo="160" yo="288" id="10000116" name="inst_585E9B58" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

@@ -47,6 +47,7 @@
     <sprite>sprites\spr_chalkboard</sprite>
     <sprite>sprites\spr_window</sprite>
     <sprite>sprites\spr_light</sprite>
+    <sprite>sprites\spr_cloud</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -114,6 +115,7 @@
     <object>objects\obj_winder</object>
     <object>objects\obj_chalk</object>
     <object>objects\obj_light</object>
+    <object>objects\obj_cloud</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>
