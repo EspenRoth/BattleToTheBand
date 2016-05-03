@@ -44,6 +44,9 @@
     <sprite>sprites\spr_boss_exec</sprite>
     <sprite>sprites\spr_key</sprite>
     <sprite>sprites\spr_lighting_wall</sprite>
+    <sprite>sprites\spr_chalkboard</sprite>
+    <sprite>sprites\spr_window</sprite>
+    <sprite>sprites\spr_light</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -108,6 +111,9 @@
     <object>objects\obj_lightningwall</object>
     <object>objects\obj_finishLine</object>
     <object>objects\credits_controller</object>
+    <object>objects\obj_winder</object>
+    <object>objects\obj_chalk</object>
+    <object>objects\obj_light</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>

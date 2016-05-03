@@ -56,6 +56,8 @@
     <instance objName="FakeDrummer" x="192" y="128" name="inst_063E6009" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="FakeSinger" x="256" y="160" name="inst_98849574" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="credits_controller" x="32" y="224" name="inst_6A6FEC96" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_light" x="288" y="32" name="inst_4AED6726" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_light" x="32" y="32" name="inst_0FB61C34" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background_tiles" x="0" y="288" w="32" h="32" xo="288" yo="256" id="10001036" name="inst_2D034E30" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

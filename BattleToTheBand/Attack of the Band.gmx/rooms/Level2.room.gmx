@@ -91,6 +91,13 @@ audio_play_sound(sound_level2,1, true);</code>
     <instance objName="obj_lightningwall" x="1664" y="160" name="inst_C101C72C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lightningwall" x="1664" y="32" name="inst_788AF356" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_finishLine" x="1952" y="192" name="inst_9C2EAE25" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_light" x="96" y="32" name="inst_D8BFA5DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_light" x="288" y="32" name="inst_63A0D821" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_light" x="1184" y="32" name="inst_C39449D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_light" x="1376" y="32" name="inst_7F1D4056" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_light" x="1504" y="32" name="inst_CCD9C766" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_light" x="1728" y="32" name="inst_F65092C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_light" x="2016" y="32" name="inst_8D262872" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background_tiles" x="0" y="256" w="32" h="32" xo="288" yo="256" id="10000914" name="inst_E8B96349" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
