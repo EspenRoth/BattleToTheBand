@@ -50,6 +50,7 @@
             <kind>1</kind>
             <string>if(canAttack)
 {
+    audio_play_sound(drumSound, 10, false);
     right = instance_create(x + 46, y, obj_drum_attack);
     right.dir = 0;
     left = instance_create(x - 46, y, obj_drum_attack);

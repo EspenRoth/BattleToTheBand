@@ -26,9 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>global.player_obj = player_obj;
-room_goto(credits)
-
-</string>
+                room_goto(Level0);
+            </string>
           </argument>
         </arguments>
       </action>
