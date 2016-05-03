@@ -68,6 +68,15 @@ audio_play_sound(sound_level1, 1, true);</code>
     <instance objName="enemy_girlHippy" x="1952" y="64" name="inst_9AB8BCAD" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="enemy_girlHippy" x="1984" y="64" name="inst_BB8CABD0" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Girlfriend" x="1984" y="128" name="inst_D6D6C99E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_clouds" x="192" y="0" name="inst_E90CE4C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_clouds" x="32" y="64" name="inst_B97FB5F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_clouds" x="416" y="0" name="inst_6BD7D1FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_clouds" x="704" y="64" name="inst_D3D284E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_clouds" x="832" y="0" name="inst_16B6455B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_clouds" x="1216" y="64" name="inst_9D3E777A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_clouds" x="1344" y="0" name="inst_E848EAF0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_clouds" x="1664" y="0" name="inst_53D2135A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_clouds" x="1888" y="32" name="inst_D93FD39E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background_tiles" x="160" y="288" w="32" h="32" xo="160" yo="288" id="10000116" name="inst_585E9B58" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
