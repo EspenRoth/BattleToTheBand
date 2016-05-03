@@ -88,6 +88,7 @@ instance_create(50, 50, global.player_obj)</code>
     <instance objName="obj_boss_executive" x="1536" y="128" name="inst_FEA8889C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lightningwall" x="1664" y="160" name="inst_C101C72C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lightningwall" x="1664" y="32" name="inst_788AF356" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_finishLine" x="1952" y="192" name="inst_9C2EAE25" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background_tiles" x="0" y="256" w="32" h="32" xo="288" yo="256" id="10000914" name="inst_E8B96349" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -163,12 +164,11 @@ instance_create(50, 50, global.player_obj)</code>
     <tile bgName="background_tiles" x="1760" y="288" w="32" h="32" xo="288" yo="256" id="10000991" name="inst_41957E44" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="background_tiles" x="1792" y="256" w="32" h="32" xo="288" yo="256" id="10000992" name="inst_0C5EC817" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="background_tiles" x="1824" y="224" w="32" h="32" xo="288" yo="256" id="10000993" name="inst_F58356F4" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="background_tiles" x="1856" y="192" w="32" h="32" xo="288" yo="256" id="10000994" name="inst_F6CB71A7" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="background_tiles" x="1888" y="192" w="32" h="32" xo="288" yo="256" id="10000994" name="inst_F6CB71A7" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="background_tiles" x="1952" y="192" w="32" h="32" xo="288" yo="256" id="10000995" name="inst_A401E837" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="background_tiles" x="2016" y="192" w="32" h="32" xo="288" yo="256" id="10000996" name="inst_77451F5D" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="background_tiles" x="1984" y="192" w="32" h="32" xo="288" yo="256" id="10000997" name="inst_F17EA9AE" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="background_tiles" x="1920" y="192" w="32" h="32" xo="288" yo="256" id="10000998" name="inst_70A4449D" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="background_tiles" x="1888" y="192" w="32" h="32" xo="288" yo="256" id="10000999" name="inst_D2B4CF5A" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="background_tiles" x="1856" y="224" w="32" h="32" xo="288" yo="256" id="10001000" name="inst_C45A1F42" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="background_tiles" x="1888" y="224" w="32" h="32" xo="288" yo="256" id="10001001" name="inst_EA611D64" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="background_tiles" x="1920" y="224" w="32" h="32" xo="288" yo="256" id="10001002" name="inst_FA2A2340" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -198,6 +198,7 @@ instance_create(50, 50, global.player_obj)</code>
     <tile bgName="background_tiles" x="1632" y="288" w="32" h="32" xo="288" yo="256" id="10001029" name="inst_589FE182" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="background_tiles" x="1600" y="288" w="32" h="32" xo="288" yo="256" id="10001030" name="inst_BDC0495C" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="background_tiles" x="1568" y="288" w="32" h="32" xo="288" yo="256" id="10001031" name="inst_E186DDF5" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="background_tiles" x="1856" y="192" w="32" h="32" xo="288" yo="256" id="10001033" name="inst_1E1E5CCA" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

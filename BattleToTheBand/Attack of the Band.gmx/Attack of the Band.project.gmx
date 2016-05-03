@@ -59,6 +59,7 @@
   </scripts>
   <fonts name="fonts">
     <font>fonts\font0</font>
+    <font>fonts\credits_font</font>
   </fonts>
   <objects name="objects">
     <object>objects\Character</object>
@@ -98,12 +99,15 @@
     <object>objects\obj_money</object>
     <object>objects\obj_key</object>
     <object>objects\obj_lightningwall</object>
+    <object>objects\obj_finishLine</object>
+    <object>objects\credits_controller</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Menu</room>
     <room>rooms\Level0</room>
     <room>rooms\Level1</room>
     <room>rooms\Level2</room>
+    <room>rooms\credits</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
