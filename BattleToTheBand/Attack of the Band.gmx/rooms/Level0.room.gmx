@@ -10,7 +10,9 @@
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code>instance_create(50, 50, global.player_obj)</code>
+  <code>instance_create(50, 50, global.player_obj);
+audio_stop_all();
+audio_play_sound(level0New, 1, true);</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>0</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

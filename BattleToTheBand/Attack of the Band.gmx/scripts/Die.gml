@@ -1,1 +1,1 @@
-room_goto(Menu);
+room_goto(global.currentLevel);

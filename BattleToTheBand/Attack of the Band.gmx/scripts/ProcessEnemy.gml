@@ -1,6 +1,9 @@
     var xx,yy,c1,c2;
 
-
+//check escape key to exit game
+if(keyboard_check(vk_escape)){
+    room_goto(Menu);
+}
 
 // Apply gravity (and jumping)
 y = y+grav;

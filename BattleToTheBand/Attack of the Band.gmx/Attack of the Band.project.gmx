@@ -9,6 +9,10 @@
     <sound>sound\guitarSound</sound>
     <sound>sound\drumSound</sound>
     <sound>sound\singerSound</sound>
+    <sound>sound\level0New</sound>
+    <sound>sound\sound_level1</sound>
+    <sound>sound\sound_menu</sound>
+    <sound>sound\sound_level2</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_money</sprite>

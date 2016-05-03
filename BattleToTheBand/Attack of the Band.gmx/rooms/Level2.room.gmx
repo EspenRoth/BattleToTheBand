@@ -28,7 +28,9 @@ if(global.player_obj == SingerPlayer_Obj){
     }
 }
 
-instance_create(50, 50, global.player_obj)</code>
+instance_create(50, 50, global.player_obj)
+audio_stop_all();
+audio_play_sound(sound_level2,1, true);</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

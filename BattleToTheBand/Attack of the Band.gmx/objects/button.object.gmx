@@ -26,8 +26,10 @@
           <argument>
             <kind>1</kind>
             <string>global.player_obj = player_obj;
-                room_goto(Level0);
-            </string>
+global.currentLevel = Level0;
+room_goto(global.currentLevel);
+            
+</string>
           </argument>
         </arguments>
       </action>

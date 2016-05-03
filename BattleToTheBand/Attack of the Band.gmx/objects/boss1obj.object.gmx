@@ -53,7 +53,9 @@ bullet_obj = boulderObj ;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto(Level1)
+            <string>global.currentLevel = Level1;
+room_goto(global.currentLevel);
+
 </string>
           </argument>
         </arguments>
